@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.conteudo-curriculo {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.section-esquerda {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #999999;
+}
+
+.section-direita {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #424a50;
+    border-radius: 0px 60px 0px 0px;
+}
+
+.conteudo-section{
+    padding: 2rem 2rem;
+}
+
+.perfil {
+    width: 100%;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.fotoPerfil {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.nome {
+    color: #D6DBDF;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.profissao {
+    color: #eeeeee;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* .contact-info { border-bottom: 2px solid #1B2631; } */
+.Contato {
+    color: #eeeeee;
+    font-size: 20px;
+}
+
+.infoContato ul {
+    padding-top: 1.5rem;
+}
+
+.infoContato ul li,
+.references ul li {
+    padding: .4rem 0;
+    color: #eeeeee;
+}
+
+.infoContato ul li i,
+.references ul li i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #eeeeee;
+}
+.left-title{
+    padding: .7rem 0;
+    color: #eeeeee;
+}
+
+.skills ul {
+    padding-top: 1.5rem;
+}
+.skills ul li p {
+    padding: .4rem 0;
+    color: #eeeeee;
+}
+
+.conteudo-direita {
+    padding: 2rem 2rem;
+}
+
+.tituloDireita {
+    color: #eeeeee;
+}
+
+.sobre-gap {
+    padding-bottom: 2rem;
+}
+.conteudo-sobreMim {
+    font-size: 18px;
+    color: #eeeeee;
+}
