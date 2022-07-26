@@ -80,6 +80,8 @@ body {
 
 .contact-info ul {
     padding-top: 1.5rem;
+    margin-left: 20px;
+
 }
 
 .contact-info ul li,
@@ -101,10 +103,17 @@ body {
 
 .skills ul {
     padding-top: 1.5rem;
+    color: #e1e6e3e3;
+    font-size: 18px;
+    letter-spacing: 1px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: 20px;
 }
+
 .skills ul li p {
     padding: .4rem 0;
-    color: #d6dfdae3;
+    color: #e1e6e3e3;
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
